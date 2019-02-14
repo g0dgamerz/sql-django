@@ -1,0 +1,10 @@
+[0;1;32m●[0m mysql.service - MySQL Community Server
+   Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Wed 2019-02-13 18:53:35 +0545; 49min ago
+ Main PID: 1868 (mysqld)
+    Tasks: 28 (limit: 4549)
+   CGroup: /system.slice/mysql.service
+           └─1868 /usr/sbin/mysqld --daemonize --pid-file=/run/mysqld/mysqld.pid
+
+फरवरी 13 18:53:13 jidesh-Latitude-3440 systemd[1]: Starting MySQL Community Server...
+फरवरी 13 18:53:35 jidesh-Latitude-3440 systemd[1]: Started MySQL Community Server.
